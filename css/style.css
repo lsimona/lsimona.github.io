@@ -2348,6 +2348,13 @@ span.one, span.two, span.three {
     color: #a79589;
 }
 
+.dnd_container_h{
+    float: right;
+    text-align: right;
+    font-size: 12pt; 
+    color: #a79589;
+}
+
 #cost .dnd_column_dd_span6{
     float: right;
 }
