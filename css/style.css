@@ -2349,8 +2349,8 @@ span.one, span.two, span.three {
 }
 
 .dnd_container_h{
-    float: right;
-    text-align: right;
+    float: left;
+    text-align: left;
     font-size: 12pt; 
     color: #a79589;
 }
