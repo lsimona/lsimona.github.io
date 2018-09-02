@@ -2353,7 +2353,7 @@ span.one, span.two, span.three {
     text-align: left;
     font-size: 12pt; 
     color: #a79589;
-    margin-left: 2.5641%;
+    margin-left: 2.5641% !important;
 }
 
 #cost .dnd_column_dd_span6{
