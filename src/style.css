@@ -58,8 +58,8 @@ h3 { margin-bottom:10px; color:var(--ink); font-size:24px; line-height:1.2; }
 .hero-note { display:flex; align-items:center; gap:9px; margin-top:28px; color:var(--muted); font-size:13px; }
 .status-dot { width:8px; height:8px; border-radius:50%; background:#7aa689; box-shadow:0 0 0 5px rgba(122,166,137,.15); }
 .hero-visual { position:relative; display:grid; min-height:440px; place-items:center; }
-.portrait-card { position:relative; z-index:2; display:grid; width:300px; height:370px; place-items:end center; border-radius:150px 150px 20px 20px; background:linear-gradient(145deg,#d4e3e3,#f0dfd1); box-shadow:var(--shadow); }
-.portrait-card img { width:270px; max-width:none; margin-bottom:20px; transform:scale(1.38); transform-origin:bottom center; }
+.portrait-card { position:relative; z-index:2; width:300px; height:370px; overflow:hidden; border-radius:150px 150px 20px 20px; background:linear-gradient(145deg,#d4e3e3,#f0dfd1); box-shadow:var(--shadow); }
+.portrait-card img { width:100%; height:100%; max-width:none; object-fit:cover; object-position:30% center; }
 .hero-orbit { position:absolute; border:1px solid rgba(63,127,139,.2); border-radius:50%; }
 .orbit-one { width:430px; height:430px; }
 .orbit-two { width:510px; height:250px; transform:rotate(-37deg); }
@@ -159,7 +159,6 @@ h3 { margin-bottom:10px; color:var(--ink); font-size:24px; line-height:1.2; }
   .hero-actions .text-link { justify-content:center; }
   .hero-visual { min-height:330px; transform:none; }
   .portrait-card { width:230px; height:285px; }
-  .portrait-card img { width:215px; transform:scale(1.25); }
   .orbit-one { width:315px; height:315px; }
   .orbit-two { width:360px; height:180px; }
   .hero-quote { right:0; bottom:0; max-width:160px; font-size:13px; }

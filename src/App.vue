@@ -71,7 +71,7 @@ function closeMenu() {
         </div>
         <div class="hero-visual">
           <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
-          <div class="portrait-card"><img src="/images/simona-upscaled.webp" alt="Симона Любимова" width="800" height="760" fetchpriority="high" decoding="async" /></div>
+          <div class="portrait-card"><img src="/images/home-03.webp" alt="Симона Любимова" width="1600" height="416" fetchpriority="high" decoding="async" /></div>
           <div class="hero-quote">«Вы не обязаны справляться со всем в одиночку»</div>
         </div>
       </div>
