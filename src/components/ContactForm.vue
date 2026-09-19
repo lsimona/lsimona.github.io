@@ -131,7 +131,7 @@ async function submitForm() {
       <span>Соглашаюсь на обработку персональных данных для ответа на сообщение.</span>
     </label>
 
-    <button class="button button-primary" type="submit" :disabled="isSending">
+    <button class="button button-primary" type="submit" :disabled="isSending" :aria-busy="isSending">
       {{ isSending ? 'Отправляю…' : isBooking ? 'Записаться на консультацию' : 'Отправить вопрос' }}
     </button>
 
